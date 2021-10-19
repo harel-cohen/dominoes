@@ -1,2 +1,2 @@
 # dominos
-A little dominos game - a small HyperSkills project
+A little dominoes game - a small HyperSkills project
