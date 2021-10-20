@@ -79,7 +79,7 @@ def print_gameplay():
     print_player_stock()
 
 def computer_move():
-    # command = random.randint(-len(computer_set), len(computer_set))
+    # The computer's "AI" - using the piece with the highest possible score
     total_numbers = [x for piece in snake for x in piece]
     computer_numbers = [x for piece in computer_set for x in piece]
     total_numbers.extend(computer_numbers)
